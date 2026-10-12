@@ -15,6 +15,17 @@
 
 ---
 
+## 下载
+
+| 方式 | 命令 / 操作 | 说明 |
+|---|---|---|
+| **ZIP（推荐）** | 点页面右上角 **Code → Download ZIP**，解压后执行 `install.ps1` | 包含全部文件和示例配置 |
+| git 克隆 | `git clone https://github.com/Landman-Chio/ThemeAutoSwitch.git` | 方便后续 `git pull` 更新 |
+| 单个文件 | 打开文件 → 点 **Raw** | 也能用，但会**缺少 `config.example.json` 示例配置** |
+
+---
+
+
 ## 为什么还需要这个
 
 Windows 自带的「自动选择深色/浅色模式」有两个问题：
@@ -204,6 +215,14 @@ app UI themes at the times you choose.
 
 Times are flexible: `19:00`, `1900`, and `19` all work. Edit the config and it takes effect
 within 20 seconds — no restart needed.
+
+### Download
+
+| Option | How | Notes |
+|---|---|---|
+| **ZIP (recommended)** | **Code → Download ZIP**, unzip, run `install.ps1` | Includes everything plus an example config |
+| git clone | `git clone https://github.com/Landman-Chio/ThemeAutoSwitch.git` | Easy to `git pull` for updates |
+| Single file | Open a file, click **Raw** | Works, but you will **miss the `config.example.json`** |
 
 ### Why this exists
 
