@@ -1,0 +1,15 @@
+{
+  "_说明": "ThemeAutoSwitch 配置。改完存盘即生效，无需重启进程（每 20 秒检查一次改动）。",
+  "_时间格式": "可写 19:00 / 1900 / 19 三种形式",
+  "_darkFrom": "从几点开始深色",
+  "_lightFrom": "从几点开始浅色。若 darkFrom > lightFrom 则深色跨越午夜",
+  "_systemUI": "是否切换系统界面(任务栏/开始菜单/通知中心)",
+  "_appsUI": "是否切换应用界面(资源管理器/设置等)",
+  "_restartExplorer": "切换后是否强制重启资源管理器立即刷新。true 更立即但会闪一下桌面",
+
+  "darkFrom": "19:00",
+  "lightFrom": "07:00",
+  "systemUI": true,
+  "appsUI": true,
+  "restartExplorer": false
+}

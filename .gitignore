@@ -1,0 +1,15 @@
+# 运行时生成的配置。示例见 config.example.json
+theme-config.json
+
+# 运行日志
+*.log
+*.log.old
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
